@@ -1,0 +1,11 @@
+### post translation
+
+POST http://localhost:3000/translation
+constent-Type:application/json
+
+{
+    "phrase":"کتاب",
+    "translation":"book",
+    "FromLang":"fa",
+    "toLang":"en",
+}
